@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+<header>
+  <h1>My Portfolio</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a web developer passionate about creating responsive and user-friendly websites.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Languages Known</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>Calculator</h3>
+        <p>A simple calculator built using HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>A responsive landing page design for a product/service.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>To-Do App</h3>
+        <p>A task management app with add/delete features using JavaScript.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: youremail@example.com</p>
+    <button onclick="showMessage()">Click Me</button>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 My Portfolio</p>
+</footer>
+
+<script>
+  function showMessage() {
+    alert("Thanks for visiting my portfolio!");
+  }
+</script>
+
+</body>
+</html>
